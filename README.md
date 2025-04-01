@@ -16,7 +16,7 @@
     <td valign="top" width="50%">
     
 #### 🛠️ 我主要维护的项目  
-[![SecurityInspector](https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=SecurityInspector&theme=dark)](https://github.com/SpringKill-team/SecurityInspector)  
+[![SecurityInspector](https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=dark)](https://github.com/SpringKill-team/SecurityInspector)  
 
 #### 🌟 我参与贡献的项目  
 [![java-chains](https://github-readme-stats.vercel.app/api/pin/?username=vulhub&repo=java-chains&theme=dark)](https://github.com/vulhub/java-chains)  
