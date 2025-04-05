@@ -16,11 +16,11 @@
     <td valign="top" width="50%">
     
 #### 🛠️ 我主要维护的项目  
-[![SecurityInspector](https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=dark)](https://github.com/SpringKill-team/SecurityInspector)  
+[![SecurityInspector](https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=merko&show_owner=true)](https://github.com/SpringKill-team/SecurityInspector)  
 
 #### 🌟 我参与贡献的项目  
-[![java-chains](https://github-readme-stats.vercel.app/api/pin/?username=vulhub&repo=java-chains&theme=dark)](https://github.com/vulhub/java-chains)  
-[![BenchmarkJava](https://github-readme-stats.vercel.app/api/pin/?username=OWASP-Benchmark&repo=BenchmarkJava&theme=dark)](https://github.com/OWASP-Benchmark/BenchmarkJava)  
+[![java-chains](https://github-readme-stats.vercel.app/api/pin/?username=vulhub&repo=java-chains&theme=merko&show_owner=true)](https://github.com/vulhub/java-chains)  
+[![BenchmarkJava](https://github-readme-stats.vercel.app/api/pin/?username=OWASP-Benchmark&repo=BenchmarkJava&theme=merko&show_owner=true)](https://github.com/OWASP-Benchmark/BenchmarkJava)  
   </tr>
 </table>
 
