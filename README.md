@@ -17,6 +17,7 @@
     
 #### 🛠️ 我主要维护的项目  
 [![SecurityInspector](https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=merko&show_owner=true)](https://github.com/SpringKill-team/SecurityInspector)  
+[![secrux](https://github-readme-stats.vercel.app/api/pin/?username=SecurityCrux&repo=secrux&theme=merko&show_owner=true)](https://github.com/SecurityCrux/secrux)  
 
 #### 🌟 我参与贡献的项目  
 [![java-chains](https://github-readme-stats.vercel.app/api/pin/?username=vulhub&repo=java-chains&theme=merko&show_owner=true)](https://github.com/vulhub/java-chains)  
