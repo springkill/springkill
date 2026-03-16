@@ -1,171 +1,75 @@
-<svg fill="none" viewBox="0 0 1500 400" width="1500" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                .container {
-                    font-family: 'Courier New', AscendantConsolas, Monaco, 'DejaVu Sans Mono', 'Liberation Mono', monospace;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 0;
-                    width: 100%;
-                    height: 400px;
-                    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-                    background-size: 600% 400%;
-                    border-radius: 10px;
-                    text-align: center;
-                    position: relative;
-                    overflow: hidden;
-                }
+<svg width="1500" height="420" viewBox="0 0 1500 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SpringKill banner</title>
+  <desc id="desc">SpringKill application security researcher banner focused on SAST, IAST, and open-source security tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="112" y1="18" x2="1388" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07131C" />
+      <stop offset="0.52" stop-color="#0B1E27" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230 90) rotate(24) scale(420 260)">
+      <stop stop-color="#22D3EE" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 310) rotate(-12) scale(360 240)">
+      <stop stop-color="#34D399" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#34D399" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#5EEAD4" stroke-opacity="0.12" />
+    </pattern>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="32" />
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity="0.35" />
+    </filter>
+    <linearGradient id="line" x1="190" y1="0" x2="1330" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+  </defs>
 
-                .container::before {
-                    content: '';
-                    position: absolute;
-                    top: -50%;
-                    left: -50%;
-                    width: 200%;
-                    height: 200%;
-                    background: radial-gradient(circle, rgba(0, 255, 0, 0.1) 0%, rgba(0, 255, 0, 0) 80%);
-                    animation: pulse 12s ease-in-out infinite;
-                }
+  <rect x="18" y="18" width="1464" height="384" rx="28" fill="url(#bg)" />
+  <rect x="18" y="18" width="1464" height="384" rx="28" fill="url(#grid)" />
+  <rect x="18.5" y="18.5" width="1463" height="383" rx="27.5" stroke="#5EEAD4" stroke-opacity="0.18" />
 
-                @keyframes pulse {
-                    0% { transform: scale(1) rotate(0deg); opacity: 0.4; }
-                    50% { transform: scale(1.1) rotate(180deg); opacity: 0.6; }
-                    100% { transform: scale(1) rotate(360deg); opacity: 0.4; }
-                }
+  <ellipse cx="230" cy="90" rx="280" ry="160" fill="url(#glowA)" filter="url(#blur)" />
+  <ellipse cx="1220" cy="310" rx="260" ry="160" fill="url(#glowB)" filter="url(#blur)" />
 
-                h1 {
-                    text-align: center;
-                    color: #00ff00;
-                    font-size: 5em;
-                    letter-spacing: 10px;
-                    font-weight: 700;
-                    margin: 0;
-                    line-height: 1;
-                    text-shadow: 0 0 15px rgba(0, 255, 0, 0.7), 0 0 30px rgba(0, 255, 0, 0.5);
-                    position: relative;
-                }
+  <path d="M90 302C245 248 395 223 610 230C826 236 1044 297 1410 264" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M120 82H330" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" />
+  <path d="M120 340H500" stroke="#34D399" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" />
 
-                .glitch {
-                    animation: glitch1 0.5s infinite;
-                }
+  <g filter="url(#shadow)">
+    <rect x="1000" y="74" width="350" height="114" rx="20" fill="#0B1620" fill-opacity="0.78" stroke="#22D3EE" stroke-opacity="0.18" />
+    <rect x="1000" y="206" width="350" height="140" rx="20" fill="#0B1620" fill-opacity="0.72" stroke="#34D399" stroke-opacity="0.18" />
+  </g>
 
-                .glitch::before,
-                .glitch::after {
-                    content: '春纱 / SpringKill';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                }
+  <text x="120" y="172" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="8">SPRINGKILL</text>
+  <text x="120" y="226" fill="#67E8F9" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="3">APPLICATION SECURITY RESEARCHER</text>
+  <text x="120" y="272" fill="#94A3B8" font-family="'Segoe UI', Arial, sans-serif" font-size="24">
+    <tspan x="120" dy="0">Focused on SAST, IAST, and practical open-source tooling for secure engineering.</tspan>
+  </text>
 
-                .glitch::before {
-                    color: #00ff00;
-                    animation: glitch2 0.5s infinite;
-                }
+  <g>
+    <rect x="120" y="308" width="96" height="34" rx="17" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.34" />
+    <text x="168" y="330" text-anchor="middle" fill="#CFFAFE" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.6">SAST</text>
+    <rect x="230" y="308" width="96" height="34" rx="17" fill="#0F172A" stroke="#34D399" stroke-opacity="0.34" />
+    <text x="278" y="330" text-anchor="middle" fill="#D1FAE5" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.6">IAST</text>
+    <rect x="340" y="308" width="164" height="34" rx="17" fill="#0F172A" stroke="#5EEAD4" stroke-opacity="0.28" />
+    <text x="422" y="330" text-anchor="middle" fill="#ECFEFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.3">OPEN SOURCE</text>
+  </g>
 
-                .glitch::after {
-                    color: #00ff00;
-                    animation: glitch3 0.5s infinite;
-                }
+  <g>
+    <text x="1030" y="110" fill="#5EEAD4" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">FOCUS</text>
+    <text x="1030" y="145" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Static analysis</text>
+    <text x="1030" y="172" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Runtime instrumentation</text>
 
-                @keyframes glitch1 {
-                    0% { transform: none; opacity: 1; }
-                    10% { transform: skew(-0.3deg, -0.5deg); opacity: 0.9; }
-                    15% { transform: none; opacity: 1; }
-                    35% { transform: none; opacity: 1; }
-                    40% { transform: skew(0.4deg, -0.1deg); opacity: 0.9; }
-                    45% { transform: none; opacity: 1; }
-                    65% { transform: none; opacity: 1; }
-                    70% { transform: skew(-0.5deg, 0.2deg); opacity: 0.9; }
-                    75% { transform: none; opacity: 1; }
-                    90% { transform: skew(0.3deg, 0.4deg); opacity: 0.9; }
-                    95% { transform: none; opacity: 1; }
-                    100% { transform: none; opacity: 1; }
-                }
-
-                @keyframes glitch2 {
-                    0% { transform: none; opacity: 0.3; }
-                    10% { transform: translate(-2px, -3px); opacity: 0.5; }
-                    15% { transform: none; opacity: 0.3; }
-                    35% { transform: none; opacity: 0.3; }
-                    40% { transform: translate(-4px, -2px); opacity: 0.5; }
-                    45% { transform: none; opacity: 0.3; }
-                    65% { transform: none; opacity: 0.3; }
-                    70% { transform: translate(-3px, -1px); opacity: 0.5; }
-                    75% { transform: none; opacity: 0.3; }
-                    90% { transform: translate(-2px, -4px); opacity: 0.5; }
-                    95% { transform: none; opacity: 0.3; }
-                    100% { transform: none; opacity: 0.3; }
-                }
-
-                @keyframes glitch3 {
-                    0% { transform: none; opacity: 0.3; }
-                    10% { transform: translate(2px, 3px); opacity: 0.5; }
-                    15% { transform: none; opacity: 0.3; }
-                    35% { transform: none; opacity: 0.3; }
-                    40% { transform: translate(4px, 2px); opacity: 0.5; }
-                    45% { transform: none; opacity: 0.3; }
-                    65% { transform: none; opacity: 0.3; }
-                    70% { transform: translate(3px, 1px); opacity: 0.5; }
-                    75% { transform: none; opacity: 0.3; }
-                    90% { transform: translate(2px, 4px); opacity: 0.5; }
-                    95% { transform: none; opacity: 0.3; }
-                    100% { transform: none; opacity: 0.3; }
-                }
-
-                .subtitle {
-                    color: #00cc00;
-                    font-size: 1.5em;
-                    margin-top: 20px;
-                    text-shadow: 0 0 5px rgba(0, 204, 0, 0.5);
-                }
-
-                .matrix {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: repeating-linear-gradient(
-                        0deg,
-                        rgba(0, 255, 0, 0.05) 0px,
-                        rgba(0, 255, 0, 0.05) 1px,
-                        transparent 1px,
-                        transparent 10px
-                    );
-                    animation: matrixRain 5s linear infinite;
-                }
-
-                @keyframes matrixRain {
-                    0% { background-position: 0 0; }
-                    100% { background-position: 0 100px; }
-                }
-
-                .scanline {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: linear-gradient(to bottom, transparent 50%, rgba(0, 255, 0, 0.05) 51%, transparent 52%);
-                    animation: scan 3s linear infinite;
-                }
-
-                @keyframes scan {
-                    0% { transform: translateY(-100%); }
-                    100% { transform: translateY(100%); }
-                }
-            </style>
-            <div class="container">
-                <div class="matrix"></div>
-                <div class="scanline"></div>
-                <h1 class="glitch">春纱 / SpringKill</h1>
-                <p class="subtitle">A man in pursuit of technology</p>
-            </div>
-        </div>
-    </foreignObject>
+    <text x="1030" y="242" fill="#86EFAC" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">BUILD</text>
+    <text x="1030" y="279" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Security tools</text>
+    <text x="1030" y="306" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Research workflows</text>
+    <text x="1030" y="333" fill="#E2E8F0" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">Developer-facing automation</text>
+  </g>
 </svg>
