@@ -38,10 +38,7 @@ I work on application security engineering and security research, building pract
 
 <p align="center">
   <a href="https://github.com/SpringKill-team/SecurityInspector">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=merko&show_owner=true" alt="SecurityInspector" />
-  </a>
-  <a href="https://github.com/SecurityCrux/secrux">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SecurityCrux&repo=secrux&theme=merko&show_owner=true" alt="secrux" />
+    <img width="62%" src="https://github-readme-stats.vercel.app/api/pin/?username=SpringKill-team&repo=CodeAuditAssistant&theme=merko&show_owner=true" alt="SecurityInspector" />
   </a>
 </p>
 
